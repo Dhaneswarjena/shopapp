@@ -1,0 +1,89 @@
+.section_cart{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:3rem;
+    >.card_cart{
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    >.card_sec{
+        width:70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background:$second;
+        color:#333;
+        border-right:1px solid #333;
+        padding:2rem;
+        margin:1%;
+        border-radius: 4px;
+        >img{
+            height:150px;
+        }
+        >.wholesection{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        padding: 10px;
+        margin: 2%;
+        >.name_div{
+            padding:1rem;
+        }
+            >.price_sec{
+                font-weight: bold;
+                padding:1rem;
+            }
+            >.btn_names{
+              display:flex;
+              justify-content: space-evenly;
+              align-items: center;
+              >button{
+                background:#333;
+                color:#fff;
+                border-radius: 4px;
+                padding:2px;
+                height:30px;
+                width:30px;
+                font-size: 22px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor:pointer;
+                &:last-of-type{
+                    margin-left:10px;
+                }
+              }
+              >p{
+                font-size: 22px;
+                margin:10px;
+              }
+        }
+         
+        }
+    }
+}
+    >.calc_section{
+        width:30%;
+        margin:1%;
+        background:$second;
+        color:#333;
+        padding:2rem;
+        border-radius: 4px;
+        >div{
+            padding:5px 0px 5px 0px;
+            border-bottom:1px solid #333;
+            >.spanright{
+             float:right;
+            }
+           &:last-of-type{
+            border-bottom:none;
+            font-size: 20px;
+            font-weight: bold;
+           }
+        }
+    }
+}

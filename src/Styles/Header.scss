@@ -1,0 +1,32 @@
+.nav_class{
+    background-color: $navbg;
+    color:$second;
+    height:3vmax;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 8rem;
+    position: relative;
+    align-items: center;
+    >div
+    {
+        display:flex;
+        justify-content: space-evenly;
+        >a{
+            text-decoration: none;
+            color:$second;
+            cursor:pointer;
+            margin:auto 10%;
+            >p{
+                 width:18px;
+                 height:18px;
+                 background-color: red;
+                 display:flex;
+                 justify-content: center;
+                 align-items: center;
+                 border-radius: 50%;
+                 position: absolute;
+                 top:20px;
+            }
+        }
+    }
+}

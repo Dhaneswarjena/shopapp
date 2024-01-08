@@ -1,0 +1,51 @@
+@media screen and (max-width:600px){
+    .nav_class{
+        padding: 1.5rem 2rem;
+        >div
+        {
+            >a{
+                
+                >p{
+                    
+                     top:22px;
+                }
+            }
+        }
+    }
+    .section_cart{
+      display:block;
+      >.card_cart{
+        width:100%;
+        >.card_sec{
+            width:100%;
+        }
+      }
+      >.calc_section{
+        width:100%;
+        margin:0;
+      }
+    }
+    .section_name{
+       margin:0%;
+       padding:0%;
+       margin-bottom: 1rem;
+        >.card_product{
+        margin: 15%;
+        padding: 4rem;
+        text-align: center;
+        }
+    }
+    .section_cart{
+        >.card_cart>.card_sec{
+            padding: 1rem;
+        }
+        >.card_cart>.card_sec>.wholesection{
+            display: flex;
+            flex-direction: column;
+            justify-content: center ;
+            align-items: center;
+            padding: 1rem;
+            margin: 2%;
+        }
+    }
+}
